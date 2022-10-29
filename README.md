@@ -10,13 +10,13 @@
 ## 安装
 
 ```js
-npm install qiniu-upload-plugin --save-dev
+npm install @pengyin/qiniu --save-dev
 ```
 
 ## 使用方法
 
 ```js
-const QiniuUploadPlugin = require('./QiniuUploadPlugin');
+const QiniuUploadPlugin = require('@pengyin/qiniu');
 
 plugins: [
   new QiniuUploadPlugin({
